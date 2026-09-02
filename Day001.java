@@ -1,0 +1,15 @@
+package day001;
+public class day001 {
+    public static void main(String[]args){
+        //komentar 1 baris
+        System.out.println("Single-line comment");
+        /*
+         * Komentar beberapa baris 
+         */
+        System.out.println("Single-line comment");
+        /** 
+         * Komentar dokumentasi 
+         */
+        System.out.println("Documentation comment");
+    }
+}
