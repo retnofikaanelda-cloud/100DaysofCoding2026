@@ -1,5 +1,5 @@
-package day001;
-public class day001 {
+package Day001;
+public class Day001 {
     public static void main(String[]args){
         //komentar 1 baris
         System.out.println("Single-line comment");
