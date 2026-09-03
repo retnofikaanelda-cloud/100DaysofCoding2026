@@ -1,5 +1,5 @@
-package day002;
-public class day002 {
+package Day002;
+public class Day002 {
     public static void main(String[] args) {
         System.out.println("BIODATA DIRI :");
         System.out.println("Nama      : Retno fika anelda");
