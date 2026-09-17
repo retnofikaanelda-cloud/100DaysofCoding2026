@@ -5,10 +5,10 @@ public class Day016 {
         int b = 2;
         int c = 3;
         
-        int modulus1 = a % b;
-        int modulus2 = a % c;
+        int modulus0 = a % b;
+        int modulus1 = a % c;
         
-        System.out.println("Hasil 1 :" + modulus1);
-        System.out.println("Hasil 2 :" + modulus2);
+        System.out.println("Hasil 1 :" + modulus0);
+        System.out.println("Hasil 2 :" + modulus1);
     }
 }
