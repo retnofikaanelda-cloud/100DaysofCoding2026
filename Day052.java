@@ -2,14 +2,15 @@ package Day052;
 import java.util.Scanner;
 public class Day052 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan angka batas: ");
-        int batas = input.nextInt();
-        int angka = 1;
-        while (angka <= batas) {
-            System.out.println("Angka: " + angka);
-            angka++;
+        Scanner in = new Scanner(System.in);
+        int pin = 0;
+
+        while (pin != 5421) {
+            System.out.print("Masukkan PIN: ");
+            pin = in.nextInt();
         }
-        input.close();
+        System.out.println("PIN benar, berhasil masuk!");
+
+        in.close();
     }
 }
