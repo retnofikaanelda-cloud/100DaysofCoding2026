@@ -8,13 +8,13 @@ public class Day058 {
         int n = in.nextInt();
 
         System.out.println("Angka ganjil:");
-        for (int i = 1; i < n; i++) {
+        for (int i = n; i >= 1; i--) {
             if (i % 2 != 0) {
                 System.out.print(i + " ");
             }
         }
         System.out.println("\nAngka genap:");
-        for (int i = 1; i < n; i++) {
+        for (int i = n; i >= 1; i--) {
             if (i % 2 == 0) {
                 System.out.print(i + " ");
             }
